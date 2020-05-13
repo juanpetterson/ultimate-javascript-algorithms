@@ -1,7 +1,7 @@
 function caesarCipher(str, num) {
   num = num % 26;
   let lowerCaseString = str.toLowerCase();
-  let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  let alphabet = 'abcdefghijklmnopqrstuvwxyz';
   let newString = '';
 
   for (let i = 0; i < lowerCaseString.length; i++) {
